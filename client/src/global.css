@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+    --color-bgprimary: #07332F;
+    --color-bgsecondary: #FFF7F4;
+
+    --color-textprimary: white;
+    --color-textsecondary: #F7A582;
+
+}
+
+.menu a.active{
+    color: #F7A582;
+}
+
+.mobilemenu a.active{
+    color: #07332F;
+}

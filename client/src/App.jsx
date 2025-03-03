@@ -1,5 +1,9 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import RootLayout from "../layouts/RootLayout";
 import About from "../components/about/About";
 import Contact from "../components/contact/Contact";
