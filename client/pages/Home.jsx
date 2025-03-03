@@ -1,10 +1,12 @@
 import React from "react";
-import Banner from "../components/home/Banner";
+import Hero_Section from "../components/home/Hero_Section";
+import Home_Appoinment from "../components/home/Home_Appoinment";
 
 function Home() {
   return (
     <>
-      <Banner />
+      <Hero_Section />
+      <Home_Appoinment />
     </>
   );
 }
