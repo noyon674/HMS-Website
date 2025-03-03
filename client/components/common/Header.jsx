@@ -31,7 +31,7 @@ function Header() {
             <Link
               to="/appoinment"
               className="text-textsecondary text-lg font-semibold flex gap-4 border
-              border-s-textsecondary rounded-3xl px-5 py-2 hover:bg-textprimary hover:border-0"
+              border-s-textsecondary rounded-3xl px-5 py-2 duration-200 ease-in-out hover:bg-textprimary"
             >
               <span>Book Appoinment</span>
               <span>
